@@ -1,0 +1,115 @@
+/* Hero.css */
+
+.hero-section {
+  width: 100%;
+  padding: 80px 16px 100px;
+  background-color: #FCF8F0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 1. Ֆոնի ոսկեգույն լույսի անիմացիա (շնչում է) */
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -100px;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(184, 146, 89, 0.15) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  animation: pulseGlow 6s infinite alternate ease-in-out;
+}
+
+.hero-container {
+  max-width: 800px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+/* 2. Տարրերի հերթական հայտնվելը (Fade & Slide Up) */
+.hero-subtitle {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #B89259;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  background: rgba(184, 146, 89, 0.1);
+  padding: 6px 16px;
+  border-radius: 30px;
+  
+  /* Անիմացիա */
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-delay: 0.1s;
+}
+
+.hero-title {
+  font-size: 52px;
+  font-weight: 800;
+  color: #5C2126;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  letter-spacing: -1px;
+  
+  /* Անիմացիա */
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+.hero-desc {
+  font-size: 18px;
+  color: #7A6365;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  /* Անիմացիա */
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+/* === ԱՆԻՄԱՑԻԱՆԵՐ === */
+
+/* Տարրերի ներքևից վերև հայտնվելը */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Ֆոնի լույսի շնչառությունը */
+@keyframes pulseGlow {
+  0% {
+    transform: scale(1) translate(0, 0);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.2) translate(-20px, 20px);
+    opacity: 1;
+  }
+}
+
+/* Մոբայլ տարբերակ */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 38px;
+  }
+  .hero-desc {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,85 @@
+/* AboutHero.css */
+
+.about-hero-section {
+  width: 100%;
+  padding: 100px 16px 80px;
+  background-color: #FCF8F0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-hero-section::before {
+  content: '';
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(184, 146, 89, 0.15) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  animation: pulseGlow 6s infinite alternate ease-in-out;
+}
+
+.about-hero-container {
+  max-width: 900px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.about-subtitle {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  color: #B89259;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  background: rgba(184, 146, 89, 0.1);
+  padding: 8px 20px;
+  border-radius: 30px;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-delay: 0.1s;
+}
+
+.about-title {
+  font-size: 56px;
+  font-weight: 800;
+  color: #5C2126;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  letter-spacing: -1px;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+.about-desc {
+  font-size: 20px;
+  color: #7A6365;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulseGlow {
+  0% { transform: scale(1); opacity: 0.6; }
+  100% { transform: scale(1.2); opacity: 1; }
+}
+
+@media (max-width: 768px) {
+  .about-title { font-size: 36px; }
+  .about-desc { font-size: 18px; }
+}

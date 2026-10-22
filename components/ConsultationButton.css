@@ -1,0 +1,165 @@
+/* ConsultationButton.css */
+
+/* Կպչուն կոճակ */
+.consultation-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 24px;
+  background-color: #5C2126; /* Մուգ բորդո */
+  color: #FCF8F0;
+  border: 2px solid #B89259; /* Ոսկեգույն եզրագիծ */
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(92, 33, 38, 0.3);
+  transition: all 0.3s ease;
+}
+
+.consultation-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(92, 33, 38, 0.4);
+  background-color: #4a181c;
+}
+
+.consultation-icon {
+  font-size: 20px;
+}
+
+/* Պատուհանի ֆոն (Overlay) */
+.consultation-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(74, 24, 28, 0.6); /* Մուգ բորդո կիսաթափանցիկ */
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.3s ease;
+}
+
+/* Պատուհան (Modal) */
+.consultation-modal {
+  background-color: #FCF8F0;
+  padding: 40px 30px;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+  border: 1px solid #B89259;
+  animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Փակելու կոճակ */
+.consultation-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: #5C2126;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.consultation-close:hover {
+  transform: scale(1.2) rotate(90deg);
+}
+
+.consultation-title {
+  font-size: 26px;
+  font-weight: 800;
+  color: #5C2126;
+  margin-bottom: 8px;
+}
+
+.consultation-subtitle {
+  font-size: 15px;
+  color: #7A6365;
+  margin-bottom: 25px;
+}
+
+/* Հեռախոսահամար */
+.consultation-phone {
+  display: block;
+  font-size: 22px;
+  font-weight: 700;
+  color: #5C2126;
+  text-decoration: none;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+.consultation-phone:hover {
+  color: #B89259;
+}
+
+/* WhatsApp կոճակ */
+.consultation-whatsapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #25D366; /* WhatsApp կանաչ */
+  color: #FFFFFF;
+  padding: 14px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3);
+}
+
+.consultation-whatsapp:hover {
+  background-color: #1DA851;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(37, 211, 102, 0.4);
+}
+
+.whatsapp-icon {
+  width: 22px;
+  height: 22px;
+}
+
+/* Անիմացիաներ */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px) scale(0.95); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Մոբայլ տարբերակ */
+@media (max-width: 768px) {
+  .consultation-btn {
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+  
+  .consultation-text {
+    display: none; /* Մոբայլում թողնում ենք միայն իկոնը */
+  }
+  
+  .consultation-modal {
+    padding: 30px 20px;
+    margin: 20px;
+  }
+}

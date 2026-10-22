@@ -1,0 +1,1204 @@
+{
+  "langs": [
+    { "id": 1, "code": "hy", "label": "Հայերեն" },
+    { "id": 2, "code": "ru", "label": "Русский" },
+    { "id": 3, "code": "en", "label": "English" }
+  ],
+  "navbar": [
+    { "id": 1, "lang": "hy", "title": "Գլխավոր", "route": "/" },
+    { "id": 2, "lang": "hy", "title": "Մեր մասին", "route": "/about" },
+    { "id": 3, "lang": "hy", "title": "Ծառայություններ", "route": "/services" },
+
+    { "id": 4, "lang": "ru", "title": "Главная", "route": "/" },
+    { "id": 5, "lang": "ru", "title": "О нас", "route": "/about" },
+    { "id": 6, "lang": "ru", "title": "Услуги", "route": "/services" },
+
+    { "id": 7, "lang": "en", "title": "Home", "route": "/" },
+    { "id": 8, "lang": "en", "title": "About", "route": "/about" },
+    { "id": 9, "lang": "en", "title": "Services", "route": "/services" }
+  ],
+  "footer_label": [
+    {
+      "id": 1,
+      "lang": "hy",
+      "title": "Seda's School",
+      "credit": "Ստեղծվել է Seda's School-ի կողմից | Բոլոր իրավունքները պաշտպանված են",
+      "social_link": [
+        { "id": 1, "image": "/images/footer/facebook.svg", "url": "https://www.facebook.com/share/1EvoVkTqWq/?mibextid=wwXIfr" },
+        { "id": 2, "image": "/images/footer/insta.svg", "url": "https://www.instagram.com/seda.international.school?cplk=dW9tdnV2MG15NGNl" },
+        { "id": 3, "image": "/images/footer/x.svg", "url": "https://x.com/" }
+      ]
+    },
+    {
+      "id": 2,
+      "lang": "ru",
+      "title": "Seda's School",
+      "credit": "Создано Seda's School | Все права защищены",
+      "social_link": [
+        { "id": 1, "image": "/images/footer/facebook.svg", "url": "https://www.facebook.com/share/1EvoVkTqWq/?mibextid=wwXIfr" },
+        { "id": 2, "image": "/images/footer/insta.svg", "url": "https://www.instagram.com/seda.international.school?cplk=dW9tdnV2MG15NGNl" },
+        { "id": 3, "image": "/images/footer/x.svg", "url": "https://x.com/" }
+      ]
+    },
+    {
+      "id": 3,
+      "lang": "en",
+      "title": "Seda's School",
+      "credit": "Created by Seda's School | All rights reserved!",
+      "social_link": [
+        { "id": 1, "image": "/images/footer/facebook.svg", "url": "https://www.facebook.com/share/1EvoVkTqWq/?mibextid=wwXIfr" },
+        { "id": 2, "image": "/images/footer/insta.svg", "url": "https://www.instagram.com/seda.international.school?cplk=dW9tdnV2MG15NGNl" },
+        { "id": 3, "image": "/images/footer/x.svg", "url": "https://x.com/" }
+      ]
+    }
+  ],
+  "home_hero": [
+    {
+      "id": 1,
+      "lang": "hy",
+      "subtitle": "ԲԱՐԻ ԳԱԼՈՒՍՏ",
+      "title": "Սովորիր Այսօր. Առաջնորդիր Վաղը.",
+      "description": "Բացահայտեք ջերմ միջավայր՝ սովորելու, աճելու և ավելի լավ ապագա կառուցելու համար:"
+    },
+    {
+      "id": 2,
+      "lang": "ru",
+      "subtitle": "ДОБРО ПОЖАЛОВАТЬ",
+      "title": "Учись Сегодня. Веди Завтра.",
+      "description": "Откройте для себя теплое место для учебы, роста и построения светлого будущего."
+    },
+    {
+      "id": 3,
+      "lang": "en",
+      "subtitle": "WELCOME",
+      "title": "Learn Today. Lead Tomorrow.",
+      "description": "Discover a welcoming place to learn, grow, and build a brighter future."
+    }
+  ],
+  "home_slider": [
+    {
+      "id": 1,
+      "lang": "hy",
+      "slides": [
+        { "id": 1, "title": "Հայոց լեզու և գրականություն", "desc": "Գրագիտություն և ստեղծագործական միտք:", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 2, "title": "Մաթեմատիկա", "desc": "Տրամաբանություն և խնդիրների լուծում:", "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 3, "title": "Ֆիզիկա", "desc": "Բնության օրենքներ և փորձեր:", "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 4, "title": "Քիմիա", "desc": "Նյութեր և ռեակցիաներ:", "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 5, "title": "Քննությունների նախապատրաստում", "desc": "Դպրոցական դասեր և քննություններ:", "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 6, "title": "Անգլերեն", "desc": "Միսս Սեդայի ղեկավարությամբ:", "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 7, "title": "Ֆրանսերեն", "desc": "Միսս Սեդայի ղեկավարությամբ:", "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 8, "title": "Գերմաներեն", "desc": "Միսս Սեդայի ղեկավարությամբ:", "image": "https://images.unsplash.com/photo-1554072675-66db59dba46f?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 9, "title": "Ռուսերեն", "desc": "Միսս Սեդայի ղեկավարությամբ:", "image": "https://images.unsplash.com/photo-1513326738677-b964603b136d?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 10, "title": "Իտալերեն", "desc": "Միսս Սեդայի ղեկավարությամբ:", "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 11, "title": "Իսպաներեն", "desc": "Միսս Սեդայի ղեկավարությամբ:", "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 12, "title": "Ծրագրավորում", "desc": "Ժամանակակից տեխնոլոգիաներ:", "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 13, "title": "Թվային հմտություններ", "desc": "Ժամանակակից կրթական ուղղություն:", "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop" }
+      ]
+    },
+    {
+      "id": 2,
+      "lang": "ru",
+      "slides": [
+        { "id": 1, "title": "Армянский язык и литература", "desc": "Грамотность и культура:", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 2, "title": "Математика", "desc": "Логика и решение задач:", "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 3, "title": "Физика", "desc": "Законы природы и эксперименты:", "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 4, "title": "Химия", "desc": "Вещества и реакции:", "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 5, "title": "Подготовка к экзаменам", "desc": "Школьные уроки и экзамены:", "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 6, "title": "Английский", "desc": "Под руководством Мисс Седы:", "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 7, "title": "Французский", "desc": "Под руководством Мисс Седы:", "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 8, "title": "Немецкий", "desc": "Под руководством Мисс Седы:", "image": "https://images.unsplash.com/photo-1554072675-66db59dba46f?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 9, "title": "Русский", "desc": "Под руководством Мисс Седы:", "image": "https://images.unsplash.com/photo-1513326738677-b964603b136d?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 10, "title": "Итальянский", "desc": "Под руководством Мисс Седы:", "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 11, "title": "Испанский", "desc": "Под руководством Мисс Седы:", "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 12, "title": "Программирование", "desc": "Современные технологии:", "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 13, "title": "Цифровые навыки", "desc": "Современное образование:", "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop" }
+      ]
+    },
+    {
+      "id": 3,
+      "lang": "en",
+      "slides": [
+        { "id": 1, "title": "Armenian Language & Literature", "desc": "Literacy and culture:", "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 2, "title": "Mathematics", "desc": "Logic and problem solving:", "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 3, "title": "Physics", "desc": "Laws of nature and experiments:", "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 4, "title": "Chemistry", "desc": "Substances and reactions:", "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 5, "title": "Exam Preparation", "desc": "School lessons and exams:", "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 6, "title": "English", "desc": "Led by Miss Seda:", "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 7, "title": "French", "desc": "Led by Miss Seda:", "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 8, "title": "German", "desc": "Led by Miss Seda:", "image": "https://images.unsplash.com/photo-1554072675-66db59dba46f?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 9, "title": "Russian", "desc": "Led by Miss Seda:", "image": "https://images.unsplash.com/photo-1513326738677-b964603b136d?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 10, "title": "Italian", "desc": "Led by Miss Seda:", "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 11, "title": "Spanish", "desc": "Led by Miss Seda:", "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 12, "title": "Programming", "desc": "Modern technologies:", "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" },
+        { "id": 13, "title": "Digital Skills", "desc": "Modern educational direction:", "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop" }
+      ]
+    }
+  ],
+  "why_choose_us": [
+    {
+      "id": 1,
+      "lang": "hy",
+      "title": "Ինչու՞ ընտրել մեզ",
+      "subtitle": "Մեր առավելությունները",
+      "items": [
+        { "id": 1, "icon": "🎓", "title": "Փորձառու մասնագետներ", "desc": "Մեր ուսուցիչները բարձր որակավորում ունեն և սիրում են իրենց գործը:" },
+        { "id": 2, "icon": "💡", "title": "Անհատական մոտեցում", "desc": "Յուրաքանչյուր աշակերտ ունի իր ուսուցման տեմպն ու կարիքները:" },
+        { "id": 3, "icon": "🌍", "title": "Լեզուների լայն ընտրանի", "desc": "Անգլերեն, ֆրանսերեն, գերմաներեն, ռուսերեն, իտալերեն, իսպաներեն:" }
+      ]
+    },
+    {
+      "id": 2,
+      "lang": "ru",
+      "title": "Почему выбрать нас",
+      "subtitle": "Наши преимущества",
+      "items": [
+        { "id": 1, "icon": "🎓", "title": "Опытные специалисты", "desc": "Наши преподаватели высококвалифицированы и любят свое дело." },
+        { "id": 2, "icon": "💡", "title": "Индивидуальный подход", "desc": "У каждого ученика свой темп и потребности в обучении." },
+        { "id": 3, "icon": "🌍", "title": "Широкий выбор языков", "desc": "Английский, французский, немецкий, русский, итальянский, испанский." }
+      ]
+    },
+    {
+      "id": 3,
+      "lang": "en",
+      "title": "Why Choose Us",
+      "subtitle": "Our advantages",
+      "items": [
+        { "id": 1, "icon": "🎓", "title": "Experienced Professionals", "desc": "Our teachers are highly qualified and passionate about their work." },
+        { "id": 2, "icon": "💡", "title": "Individual Approach", "desc": "Each student has their own learning pace and needs." },
+        { "id": 3, "icon": "🌍", "title": "Wide Language Choice", "desc": "English, French, German, Russian, Italian, Spanish." }
+      ]
+    }
+  ],
+  "consultation": [
+    {
+      "id": 1,
+      "lang": "hy",
+      "buttonText": "Խորհրդատվություն",
+      "title": "Կապվեք մեզ հետ",
+      "subtitle": "Մենք պատրաստ ենք պատասխանել ձեր հարցերին",
+      "phone": "+374 98 708 171",
+      "whatsappText": "Գրել WhatsApp-ով",
+      "closeText": "Փակել"
+    },
+    {
+      "id": 2,
+      "lang": "ru",
+      "buttonText": "Консультация",
+      "title": "Свяжитесь с нами",
+      "subtitle": "Мы готовы ответить на ваши вопросы",
+      "phone": "+374 98 708 171",
+      "whatsappText": "Написать в WhatsApp",
+      "closeText": "Закрыть"
+    },
+    {
+      "id": 3,
+      "lang": "en",
+      "buttonText": "Consultation",
+      "title": "Contact Us",
+      "subtitle": "We are ready to answer your questions",
+      "phone": "+374 98 708 171",
+      "whatsappText": "Chat on WhatsApp",
+      "closeText": "Close"
+    }
+  ],
+  "about_page": [
+    {
+      "id": 1,
+      "lang": "hy",
+      "hero": {
+        "subtitle": "ԲԱՐԻ ԳԱԼՈՒՍՏ SEDA'S SCHOOL",
+        "title": "Կրթություն առանց սահմանների՝ աշխարհի ցանկացած կետից",
+        "desc": "Seda’s School-ը պարզապես կրթական կենտրոն չէ․ այն գիտելիքի, նոր հնարավորությունների և մեծ երազանքների իրականացման վայր է։"
+      },
+      "intro": {
+        "text1": "Մեր դպրոցը ստեղծվել է մեկ կարևոր գաղափարի շուրջ՝ որակյալ և հասանելի կրթությունը պետք է բաց լինի բոլորի համար՝ անկախ տարիքից և բնակության վայրից։",
+        "text2": "Seda’s School-ում մենք սիրով ընդունում ենք ինչպես երեխաներին, այնպես էլ մեծահասակներին՝ առաջարկելով բազմակողմանի կրթություն, ժամանակակից ուսուցման մեթոդներ և անհատական մոտեցում յուրաքանչյուր սովորողին։",
+        "location": "Մեր կրթական կենտրոնը գտնվում է Հայաստանի մայրաքաղաք Երևանում՝ Նոր Նորք վարչական շրջանում, Գայի պողոտա 37 հասցեում՝ Մեգա Մոլի հարևանությամբ։ Միաժամանակ, մեր հատուկ առցանց ուսուցման հարթակի շնորհիվ Seda’s School-ի դռները բաց են աշխարհի տարբեր երկրներում բնակվող սովորողների համար։"
+      },
+      "founder": {
+        "title": "Մեր հիմնադիրը՝ Միսս Սեդա",
+        "text1": "Seda’s School-ի հիմնադիր-տնօրենը Միսս Սեդան է՝ միջազգային կրթական ոլորտում 10 տարվա դասավանդման փորձ ունեցող մասնագետ։",
+        "text2": "Տարիների ընթացքում ձեռք բերած միջազգային փորձը, տարբեր կրթական համակարգերի հետ աշխատանքը և դասավանդման հանդեպ մեծ սերը նրան ոգեշնչել են իրականացնելու իր վաղեմի երազանքը՝ ստեղծել մի կրթական հաստատություն, որտեղ մեկ հարկի տակ կհամախմբվեն տարբեր գիտություններ, օտար լեզուներ և ժամանակակից կրթական ուղղություններ։",
+        "quote": "«Իմ երազանքն էր ստեղծել դպրոց, որտեղ կրթությունը չի սահմանափակվի միայն դասագրքերով։ Ես ցանկանում էի ստեղծել մի աշխարհ, որտեղ երեխաներն ու մեծահասակները կսովորեն սիրով, կհավատան իրենց ուժերին և գիտելիքի շնորհիվ կկառուցեն իրենց ապագան»։",
+        "author": "— Միսս Սեդա, Seda’s School-ի հիմնադիր-տնօրեն"
+      }
+    },
+    {
+      "id": 2,
+      "lang": "ru",
+      "hero": {
+        "subtitle": "ДОБРО ПОЖАЛОВАТЬ В SEDA'S SCHOOL",
+        "title": "Образование без границ — из любой точки мира",
+        "desc": "Seda’s School — это не просто образовательный центр. Это место, где сбываются знания, новые возможности и большие мечты."
+      },
+      "intro": {
+        "text1": "Наша школа была создана вокруг одной важной идеи: качественное и доступное образование должно быть открыто для всех, независимо от возраста и места жительства.",
+        "text2": "В Seda’s School мы с радостью принимаем как детей, так и взрослых, предлагая разностороннее образование, современные методы обучения и индивидуальный подход к каждому ученику.",
+        "location": "Наш образовательный центр находится в столице Армении, Ереване, в административном районе Нор Норк, на проспекте Гая 37, рядом с Мега Моллом. Благодаря нашей специальной платформе онлайн-обучения двери Seda’s School открыты для учеников из разных стран мира."
+      },
+      "founder": {
+        "title": "Наш основатель — Мисс Седа",
+        "text1": "Основатель и директор Seda’s School — Мисс Седа, специалист с 10-летним опытом преподавания в сфере международного образования.",
+        "text2": "Международный опыт, работа с различными образовательными системами и большая любовь к преподаванию вдохновили ее реализовать свою давнюю мечту — создать образовательное учреждение, где под одной крышей объединятся различные науки, иностранные языки и современные образовательные направления.",
+        "quote": "«Я мечтала создать школу, где образование не ограничивается учебниками. Я хотела создать мир, где дети и взрослые будут учиться с любовью, верить в свои силы и строить свое будущее благодаря знаниям».",
+        "author": "— Мисс Седа, основатель и директор Seda’s School"
+      }
+    },
+    {
+      "id": 3,
+      "lang": "en",
+      "hero": {
+        "subtitle": "WELCOME TO SEDA'S SCHOOL",
+        "title": "Education Without Borders — From Anywhere in the World",
+        "desc": "Seda’s School is not just an educational center. It is a place where knowledge, new opportunities, and big dreams come true."
+      },
+      "intro": {
+        "text1": "Our school was created around one important idea: quality and accessible education should be open to everyone, regardless of age and place of residence.",
+        "text2": "At Seda’s School, we warmly welcome both children and adults, offering versatile education, modern teaching methods, and an individual approach to each learner.",
+        "location": "Our educational center is located in Yerevan, the capital of Armenia, in the Nor Nork district, at 37 Gai Avenue, next to Mega Mall. At the same time, thanks to our special online learning platform, the doors of Seda’s School are open to students living in different countries around the world."
+      },
+      "founder": {
+        "title": "Our Founder — Miss Seda",
+        "text1": "The founder and director of Seda’s School is Miss Seda, a professional with 10 years of teaching experience in the field of international education.",
+        "text2": "The international experience gained over the years, working with various educational systems, and a great love for teaching inspired her to realize her long-time dream — to create an educational institution where various sciences, foreign languages, and modern educational directions come together under one roof.",
+        "quote": "«My dream was to create a school where education is not limited to textbooks. I wanted to create a world where children and adults learn with love, believe in their strength, and build their future through knowledge.»",
+        "author": "— Miss Seda, Founder and Director of Seda’s School"
+      }
+    }
+  ],
+   "services_page": [
+    {
+      "id": 1,
+      "lang": "hy",
+      "hero": {
+        "subtitle": "ՄԵՐ ԾԱՌԱՅՈՒԹՅՈՒՆՆԵՐԸ",
+        "title": "Բացահայտիր մեր կրթական ուղղությունները",
+        "desc": "Ընտրիր քո ուղին մեր բազմազան ծրագրերից՝ լեզուներ, գիտություններ և ժամանակակից տեխնոլոգիաներ:"
+      },
+      "categories": [
+        { "id": "all", "name": "Բոլորը" },
+        { "id": "languages", "name": "Օտար լեզուներ" },
+        { "id": "modern", "name": "Ժամանակակից" },
+        { "id": "general", "name": "Հանրակրթական" }
+      ],
+      "items": [
+        {
+          "id": 1,
+          "category": "modern",
+          "title": "Ծրագրավորում, Ֆիզիկա, Քիմիա, Մաթեմատիկա",
+          "teacher": "Ֆրունզե Հայրապետյան",
+          "role": "Ծրագրավորող և գիտությունների մասնագետ",
+          "desc": "Բոլոր ճշգրիտ գիտությունները և տեխնոլոգիաները մեկ տեղում:",
+          "image": "/images/teachers/frunze.jpg",
+          "slug": "frunze-subjects",
+          "details": {
+            "title": "Ծրագրավորում, Ֆիզիկա, Քիմիա, Մաթեմատիկա 🧠",
+            "subtitle": "Սովորի՛ր ճշգրիտ գիտություններ և տեխնոլոգիաներ փորձառու մասնագետից։",
+            "intro1": "Ֆրունզե Հայրապետյանը մեր փորձառու մասնագետն է, ով դասավանդում է ծրագրավորում (7 տարվա փորձ), ինչպես նաև ֆիզիկա, քիմիա և մաթեմատիկա (5 տարվա փորձ)։",
+            "intro2": "Նա աշխատում է ինչպես երեխաների, այնպես էլ մեծահասակների հետ՝ առաջարկելով գործնական գիտելիքներ, իրական նախագծեր և անհատական մոտեցում յուրաքանչյուր սովորողի։",
+            "programsTitle": "Ինչ եք սովորելու",
+            "programs": [
+              "Ծրագրավորում — HTML, CSS, JavaScript, React, Next.js, Node.js:",
+              "Ֆիզիկա — մեխանիկա, էլեկտրականություն և մագնիսականություն:",
+              "Քիմիա — ատոմներ, մոլեկուլներ և քիմիական ռեակցիաներ:",
+              "Մաթեմատիկա — թվաբանություն, հանրահաշիվ և երկրաչափություն:",
+              "Քննությունների և օլիմպիադաների նախապատրաստում:",
+              "Անհատական նախագծեր և գործնական աշխատանք:"
+            ],
+            "typesTitle": "Դասընթացների ձևաչափերը",
+            "individualTitle": "Անհատական",
+            "individualList": [
+              "Շաբաթական 2 անգամ՝ ամսական 8 դաս։",
+              "Շաբաթական 3 անգամ՝ ամսական 12 դաս։",
+              "Մեկ դասի տևողությունը՝ 60 րոպե։"
+            ],
+            "groupTitle": "Խմբակային",
+            "groupList": [
+              "Շաբաթական 3 անգամ՝ ամսական 12 դաս։",
+              "Մեկ դասի տևողությունը՝ 90 րոպե։"
+            ],
+            "formatsTitle": "Ուսուցման ձևաչափեր",
+            "online": "🌐 Առցանց (Online) — սովորի՛ր աշխարհի ցանկացած կետից։",
+            "offline": "🏫 Առկա (Offline) — մասնակցի՛ր դասերին Seda’s School-ում։",
+            "address": "📍 Հասցե՝ Երևան, Նոր Նորք, Գայի պողոտա 37, Մեգա Մոլի հարևանությամբ։",
+            "footerText": "Seda’s School — սովորի՛ր գիտություններ և տեխնոլոգիաներ, ստեղծի՛ր ապագան։"
+          }
+        },
+        {
+          "id": 2,
+          "category": "languages",
+          "title": "Անգլերեն",
+          "teacher": "Միսս Սեդա",
+          "role": "Անգլերենի մասնագետ",
+          "desc": "Խոսակցական և գրավոր անգլերեն:",
+          "image": "/images/teachers/seda.jpg",
+          "slug": "english-seda",
+          "details": {
+            "title": "Միսս Սեդա — հիմնադիր-տնօրեն և անգլերենի գլխավոր մասնագետ 🇬🇧",
+            "subtitle": "Սովորի՛ր խոսել վստահ և ազատ։",
+            "intro1": "Միսս Սեդան ունի 10 տարվա միջազգային դասավանդման փորձ՝ աշխատելով միջազգային կրթական կենտրոններում՝ Մոսկվայի Helen Doron և Wexford կենտրոններում, Դուբայի Berlitz լեզվի կենտրոնում և Իտալիայի ABC կենտրոնում։",
+            "intro2": "Նա աշխատում է A1–C2 մակարդակների սովորողների հետ՝ առաջարկելով անգլերենի ուսուցում սկսնակներից մինչև առաջադեմ մակարդակ, ինչպես նաև դիմորդների և միջազգային քննությունների նախապատրաստում։",
+            "programsTitle": "Մեր կրթական ծրագրերը",
+            "programs": [
+              "Ընդհանուր անգլերեն՝ A1–C2 մակարդակներ։",
+              "Խոսակցական անգլերեն՝ բանավոր հաղորդակցման զարգացում։",
+              "Դիմորդների նախապատրաստում՝ բուհ ընդունվելու քննությունների համար։",
+              "IELTS-ի նախապատրաստում՝ քննության բոլոր բաժինների զարգացում՝ Listening, Reading, Writing և Speaking։",
+              "Դպրոցական քննությունների նախապատրաստում։",
+              "Անհատական ուսուցում՝ սովորողի նպատակներին և մակարդակին համապատասխան։"
+            ],
+            "typesTitle": "Դասընթացների տեսակները",
+            "individualTitle": "Անհատական դասընթացներ",
+            "individualList": [
+              "Շաբաթական 2 անգամ՝ ամսական 8 դաս։",
+              "Շաբաթական 3 անգամ՝ ամսական 12 դաս։",
+              "Մեկ դասի տևողությունը՝ 60 րոպե։"
+            ],
+            "groupTitle": "Խմբակային դասընթացներ",
+            "groupList": [
+              "Շաբաթական 3 անգամ՝ ամսական 12 դաս։",
+              "Մեկ դասի տևողությունը՝ 90 րոպե։"
+            ],
+            "formatsTitle": "Ուսուցման ձևաչափեր",
+            "online": "🌐 Առցանց (Online) — սովորի՛ր աշխարհի ցանկացած կետից։",
+            "offline": "🏫 Առկա (Offline) — մասնակցի՛ր դասերին Seda’s School-ում։",
+            "address": "📍 Հասցե՝ Երևան, Նոր Նորք, Գայի պողոտա 37, Մեգա Մոլի հարևանությամբ։",
+            "footerText": "Seda’s School — միջազգային փորձ, որակյալ կրթություն և վստահ քայլ դեպի հաջողություն։"
+          }
+        },
+        {
+          "id": 4,
+          "category": "languages",
+          "title": "Անգլերեն",
+          "teacher": "Քնարիկ Խաչատրյան",
+          "role": "Անգլերենի մասնագետ",
+          "desc": "Խոսակցական և գրավոր անգլերեն:",
+          "image": "/images/teachers/qnarik.jpg",
+          "slug": "english-qnarik",
+          "details": {
+            "title": "Անգլերենի դասընթացներ 🇬🇧",
+            "subtitle": "Սովորի՛ր խոսել վստահ և ազատ։",
+            "intro1": "Seda’s School-ում Քնարիկ Խաչատրյանի ղեկավարությամբ առաջարկում ենք անգլերենի դասընթացներ սկսնակներից մինչև առաջադեմ մակարդակ։",
+            "intro2": "Նա աշխատում է A1–C2 մակարդակների սովորողների հետ՝ առաջարկելով անգլերենի ուսուցում, ինչպես նաև դիմորդների և միջազգային քննությունների նախապատրաստում։",
+            "programsTitle": "Մեր կրթական ծրագրերը",
+            "programs": [
+              "Ընդհանուր անգլերեն՝ A1–C2 մակարդակներ։",
+              "Խոսակցական անգլերեն՝ բանավոր հաղորդակցման զարգացում։",
+              "Դիմորդների նախապատրաստում՝ բուհ ընդունվելու քննությունների համար։",
+              "IELTS-ի նախապատրաստում՝ քննության բոլոր բաժինների զարգացում։",
+              "Դպրոցական քննությունների նախապատրաստում։",
+              "Անհատական ուսուցում՝ սովորողի նպատակներին և մակարդակին համապատասխան։"
+            ],
+            "typesTitle": "Դասընթացների տեսակները",
+            "individualTitle": "Անհատական դասընթացներ",
+            "individualList": [
+              "Շաբաթական 2 անգամ՝ ամսական 8 դաս։",
+              "Շաբաթական 3 անգամ՝ ամսական 12 դաս։",
+              "Մեկ դասի տևողությունը՝ 60 րոպե։"
+            ],
+            "groupTitle": "Խմբակային դասընթացներ",
+            "groupList": [
+              "Շաբաթական 3 անգամ՝ ամսական 12 դաս։",
+              "Մեկ դասի տևողությունը՝ 90 րոպե։"
+            ],
+            "formatsTitle": "Ուսուցման ձևաչափեր",
+            "online": "🌐 Առցանց (Online) — սովորի՛ր աշխարհի ցանկացած կետից։",
+            "offline": "🏫 Առկա (Offline) — մասնակցի՛ր դասերին Seda’s School-ում։",
+            "address": "📍 Հասցե՝ Երևան, Նոր Նորք, Գայի պողոտա 37, Մեգա Մոլի հարևանությամբ։",
+            "footerText": "Seda’s School — որակյալ կրթություն և վստահ քայլ դեպի հաջողություն։"
+          }
+        },
+        {
+          "id": 8,
+          "category": "languages",
+          "title": "Ֆրանսերեն",
+          "teacher": "Թամարա Խաչատրյան",
+          "role": "Ֆրանսերենի մասնագետ",
+          "desc": "Ֆրանսերեն լեզու և մշակույթ:",
+          "image": "/images/teachers/tamara.jpg",
+          "slug": "french",
+          "details": {
+            "title": "Ֆրանսերենի դասընթացներ 🇫🇷",
+            "subtitle": "Սովորի՛ր ֆրանսերենը, խոսի՛ր վստահությամբ։",
+            "intro1": "Seda’s School-ում Թամարա Խաչատրյանի ղեկավարությամբ առաջարկում ենք ֆրանսերենի դասընթացներ երեխաների և մեծահասակների համար՝ սկսնակներից մինչև լեզվական գիտելիքները կատարելագործել ցանկացող սովորողները։",
+            "intro2": "Մեր նպատակն է օգնել յուրաքանչյուր սովորողի յուրացնել ֆրանսերենը, զարգացնել հաղորդակցման հմտությունները և բացահայտել ֆրանսիական լեզվի ու մշակույթի գեղեցկությունը։",
+            "programsTitle": "Մեր կրթական ծրագրերը",
+            "programs": [
+              "Ֆրանսերեն զրոյից — այբուբեն, արտասանություն, բառապաշար և քերականության հիմունքներ։",
+              "Բանավոր խոսքի զարգացում — սովորի՛ր ազատ և վստահ հաղորդակցվել ֆրանսերենով։",
+              "Ֆրանսերենի քերականություն — զարգացրո՛ւ լեզվական գիտելիքներդ և կատարելագործի՛ր գրավոր խոսքդ։",
+              "Ընդհանուր ֆրանսերեն — լսելու, կարդալու, գրելու և խոսելու հմտությունների զարգացում։",
+              "Ֆրանսերեն երեխաների և մեծահասակների համար — տարիքին և գիտելիքների մակարդակին համապատասխան ուսուցում։",
+              "Ֆրանսերենի անհատական ուսուցում — անհատական մոտեցում՝ յուրաքանչյուր սովորողի նպատակներին համապատասխան։"
+            ],
+            "typesTitle": "Դասընթացների տեսակները",
+            "individualTitle": "Անհատական դասընթացներ",
+            "individualList": [
+              "Շաբաթական 2 անգամ՝ ամսական 8 դաս։",
+              "Շաբաթական 3 անգամ՝ ամսական 12 դաս։",
+              "Մեկ դասի տևողությունը՝ 60 րոպե։"
+            ],
+            "groupTitle": "Խմբակային դասընթացներ",
+            "groupList": [
+              "Շաբաթական 3 անգամ՝ ամսական 12 դաս։",
+              "Մեկ դասի տևողությունը՝ 90 րոպե։"
+            ],
+            "formatsTitle": "Ուսուցման ձևաչափեր",
+            "online": "🌐 Առցանց (Online) — սովորի՛ր ֆրանսերեն աշխարհի ցանկացած կետից։",
+            "offline": "🏫 Առկա (Offline) — մասնակցի՛ր դասերին Seda’s School-ում։",
+            "address": "📍 Հասցե՝ Երևան, Նոր Նորք, Գայի պողոտա 37, Մեգա Մոլի հարևանությամբ։",
+            "footerText": "Seda’s School — սովորի՛ր նոր լեզու, բացահայտի՛ր նոր աշխարհ։"
+          }
+        },
+        {
+          "id": 3,
+          "category": "general",
+          "title": "Հայոց լեզու և գրականություն",
+          "teacher": "Վարդուհի Սիրավյան",
+          "role": "Լեզվի և գրականության մասնագետ",
+          "desc": "Գրագիտություն և ստեղծագործական միտք:",
+          "image": "/images/teachers/varduhi.jpg",
+          "slug": "armenian",
+          "details": {
+            "title": "Հայոց լեզու և գրականություն 📚",
+            "subtitle": "Բացահայտի՛ր մեր լեզվի հարստությունը։",
+            "intro1": "Վարդուհի Սիրավյանը մեր լեզվի և գրականության փորձառու մասնագետն է, ով իր գիտելիքներով և մեծ սիրով է կիսվում սովորողների հետ։",
+            "intro2": "Նա աշխատում է տարբեր տարիքային խմբերի հետ՝ առաջարկելով հայոց լեզվի խորը ուսուցում, գրագիտության զարգացում և սեր դեպի մեր մշակույթն ու գրականությունը։",
+            "programsTitle": "Մեր կրթական ծրագրերը",
+            "programs": [
+              "Հայոց լեզու զրոյից — այբուբեն, բառապաշար և հիմունքներ։",
+              "Բանավոր խոսքի զարգացում — սովորի՛ր ազատ և գրագետ արտահայտվել։",
+              "Քերականության խորացված ուսուցում — գրավոր խոսքի կատարելագործում։",
+              "Հայոց լեզու և գրականություն — դպրոցական ծրագրի յուրացում։",
+              "Քննությունների նախապատրաստում — 9-րդ դասարան և բուհ ընդունելություն։",
+              "Հայերեն օտարերկրացիների համար — զրոյից մինչև առօրյա հաղորդակցություն։"
+            ],
+            "typesTitle": "Դասընթացների տեսակները",
+            "individualTitle": "Անհատական դասընթացներ",
+            "individualList": [
+              "Շաբաթական 2 անգամ՝ ամսական 8 դաս։",
+              "Շաբաթական 3 անգամ՝ ամսական 12 դաս։",
+              "Մեկ դասի տևողությունը՝ 60 րոպե։"
+            ],
+            "groupTitle": "Խմբակային դասընթացներ",
+            "groupList": [
+              "Շաբաթական 3 անգամ՝ ամսական 12 դաս։",
+              "Մեկ դասի տևողությունը՝ 90 րոպե։"
+            ],
+            "formatsTitle": "Ուսուցման ձևաչափեր",
+            "online": "🌐 Առցանց (Online) — սովորի՛ր աշխարհի ցանկացած կետից։",
+            "offline": "🏫 Առկա (Offline) — մասնակցի՛ր դասերին Seda’s School-ում։",
+            "address": "📍 Հասցե՝ Երևան, Նոր Նորք, Գայի պողոտա 37, Մեգա Մոլի հարևանությամբ։",
+            "footerText": "Seda’s School — սովորի՛ր հայերենը սիրով, խոսի՛ր վստահությամբ։"
+          }
+        },
+        {
+          "id": 9,
+          "category": "languages",
+          "title": "Իսպաներեն",
+          "teacher": "Դասատուն շուտով կլինի",
+          "role": "Իսպաներենի մասնագետ",
+          "desc": "Իսպաներեն լեզու և մշակույթ:",
+          "image": "https://flagcdn.com/w640/es.png",
+          "slug": "spanish",
+          "details": {
+            "title": "Իսպաներենի դասընթացներ 🇪🇸",
+            "subtitle": "Այս դասընթացը շուտով հասանելի կլինի։",
+            "intro1": "Մեր թիմը ակտիվորեն աշխատում է Իսպաներենի լավագույն դասատուին գտնելու ուղղությամբ։",
+            "intro2": "Խնդրում ենք հետևել մեր կայքին, շուտով կհայտարարենք նոր դասատուի մասին։",
+            "programsTitle": "Ինչ է սպասվում",
+            "programs": ["Ընդհանուր իսպաներեն", "Խոսակցական իսպաներեն", "Մշակութային ծրագրեր"],
+            "typesTitle": "Դասընթացների տեսակները",
+            "individualTitle": "Անհատական",
+            "individualList": ["Շուտով"],
+            "groupTitle": "Խմբակային",
+            "groupList": ["Շուտով"],
+            "formatsTitle": "Ուսուցման ձևաչափեր",
+            "online": "🌐 Առցանց (Online)",
+            "offline": "🏫 Առկա (Offline)",
+            "address": "📍 Հասցե՝ Երևան, Նոր Նորք, Գայի պողոտա 37։",
+            "footerText": "Seda’s School — շուտով նոր հնարավորություններ։"
+          }
+        },
+        {
+          "id": 10,
+          "category": "languages",
+          "title": "Գերմաներեն",
+          "teacher": "Դասատուն շուտով կլինի",
+          "role": "Գերմաներենի մասնագետ",
+          "desc": "Գերմաներեն լեզու և մշակույթ:",
+          "image": "https://flagcdn.com/w640/de.png",
+          "slug": "german",
+          "details": {
+            "title": "Գերմաներենի դասընթացներ 🇩🇪",
+            "subtitle": "Այս դասընթացը շուտով հասանելի կլինի։",
+            "intro1": "Մեր թիմը ակտիվորեն աշխատում է Գերմաներենի լավագույն դասատուին գտնելու ուղղությամբ։",
+            "intro2": "Խնդրում ենք հետևել մեր կայքին, շուտով կհայտարարենք նոր դասատուի մասին։",
+            "programsTitle": "Ինչ է սպասվում",
+            "programs": ["Ընդհանուր գերմաներեն", "Խոսակցական գերմաներեն", "Մշակութային ծրագրեր"],
+            "typesTitle": "Դասընթացների տեսակները",
+            "individualTitle": "Անհատական",
+            "individualList": ["Շուտով"],
+            "groupTitle": "Խմբակային",
+            "groupList": ["Շուտով"],
+            "formatsTitle": "Ուսուցման ձևաչափեր",
+            "online": "🌐 Առցանց (Online)",
+            "offline": "🏫 Առկա (Offline)",
+            "address": "📍 Հասցե՝ Երևան, Նոր Նորք, Գայի պողոտա 37։",
+            "footerText": "Seda’s School — շուտով նոր հնարավորություններ։"
+          }
+        },
+        {
+          "id": 11,
+          "category": "languages",
+          "title": "Իտալերեն",
+          "teacher": "Դասատուն շուտով կլինի",
+          "role": "Իտալերենի մասնագետ",
+          "desc": "Իտալերեն լեզու և մշակույթ:",
+          "image": "https://flagcdn.com/w640/it.png",
+          "slug": "italian",
+          "details": {
+            "title": "Իտալերենի դասընթացներ 🇮🇹",
+            "subtitle": "Այս դասընթացը շուտով հասանելի կլինի։",
+            "intro1": "Մեր թիմը ակտիվորեն աշխատում է Իտալերենի լավագույն դասատուին գտնելու ուղղությամբ։",
+            "intro2": "Խնդրում ենք հետևել մեր կայքին, շուտով կհայտարարենք նոր դասատուի մասին։",
+            "programsTitle": "Ինչ է սպասվում",
+            "programs": ["Ընդհանուր իտալերեն", "Խոսակցական իտալերեն", "Մշակութային ծրագրեր"],
+            "typesTitle": "Դասընթացների տեսակները",
+            "individualTitle": "Անհատական",
+            "individualList": ["Շուտով"],
+            "groupTitle": "Խմբակային",
+            "groupList": ["Շուտով"],
+            "formatsTitle": "Ուսուցման ձևաչափեր",
+            "online": "🌐 Առցանց (Online)",
+            "offline": "🏫 Առկա (Offline)",
+            "address": "📍 Հասցե՝ Երևան, Նոր Նորք, Գայի պողոտա 37։",
+            "footerText": "Seda’s School — շուտով նոր հնարավորություններ։"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "lang": "ru",
+      "hero": {
+        "subtitle": "НАШИ УСЛУГИ",
+        "title": "Откройте для себя наши образовательные направления",
+        "desc": "Выберите свой путь из наших разнообразных программ: языки, науки и современные технологии."
+      },
+      "categories": [
+        { "id": "all", "name": "Все" },
+        { "id": "languages", "name": "Иностранные языки" },
+        { "id": "modern", "name": "Современные" },
+        { "id": "general", "name": "Общеобразовательные" }
+      ],
+      "items": [
+        {
+          "id": 1,
+          "category": "modern",
+          "title": "Программирование, Физика, Химия, Математика",
+          "teacher": "Фрунзе Айрапетян",
+          "role": "Программист и специалист по наукам",
+          "desc": "Все точные науки и технологии в одном месте:",
+          "image": "/images/teachers/frunze.jpg",
+          "slug": "frunze-subjects",
+          "details": {
+            "title": "Программирование, Физика, Химия, Математика 🧠",
+            "subtitle": "Изучай точные науки и технологии у опытного специалиста.",
+            "intro1": "Фрунзе Айрапетян — наш опытный специалист, который преподает программирование (7 лет опыта), а также физику, химию и математику (5 лет опыта).",
+            "intro2": "Он работает как с детьми, так и со взрослыми, предлагая практические знания, реальные проекты и индивидуальный подход к каждому ученику.",
+            "programsTitle": "Чему вы научитесь",
+            "programs": [
+              "Программирование — HTML, CSS, JavaScript, React, Next.js, Node.js.",
+              "Физика — механика, электричество и магнетизм.",
+              "Химия — атомы, молекулы и химические реакции.",
+              "Математика — арифметика, алгебра и геометрия.",
+              "Подготовка к экзаменам и олимпиадам.",
+              "Индивидуальные проекты и практическая работа."
+            ],
+            "typesTitle": "Форматы курсов",
+            "individualTitle": "Индивидуальные",
+            "individualList": [
+              "2 раза в неделю — 8 уроков в месяц.",
+              "3 раза в неделю — 12 уроков в месяц.",
+              "Продолжительность урока — 60 минут."
+            ],
+            "groupTitle": "Групповые",
+            "groupList": [
+              "3 раза в неделю — 12 уроков в месяц.",
+              "Продолжительность урока — 90 минут."
+            ],
+            "formatsTitle": "Форматы обучения",
+            "online": "🌐 Онлайн — учись из любой точки мира.",
+            "offline": "🏫 Офлайн — посещай занятия в Seda’s School.",
+            "address": "📍 Адрес: г. Ереван, Нор Норк, проспект Гая 37, рядом с Мега Моллом.",
+            "footerText": "Seda’s School — учи науки и технологии, создавай будущее."
+          }
+        },
+        {
+          "id": 2,
+          "category": "languages",
+          "title": "Английский",
+          "teacher": "Мисс Седа",
+          "role": "Специалист по английскому",
+          "desc": "Разговорный и письменный английский:",
+          "image": "/images/teachers/seda.jpg",
+          "slug": "english-seda",
+          "details": {
+            "title": "Мисс Седа — основатель и главный специалист по английскому 🇬🇧",
+            "subtitle": "Научись говорить уверенно и свободно.",
+            "intro1": "Мисс Седа имеет 10-летний опыт международного преподавания, работая в международных образовательных центрах Helen Doron и Wexford в Москве, в языковом центре Berlitz в Дубае и в центре ABC в Италии.",
+            "intro2": "Она работает с учениками уровней A1–C2, предлагая обучение английскому от начального до продвинутого уровня, а также подготовку абитуриентов и к международным экзаменам.",
+            "programsTitle": "Наши образовательные программы",
+            "programs": [
+              "Общий английский — уровни A1–C2.",
+              "Разговорный английский — развитие устной речи.",
+              "Подготовка абитуриентов к экзаменам.",
+              "Подготовка к IELTS — Listening, Reading, Writing и Speaking.",
+              "Подготовка к школьным экзаменам.",
+              "Индивидуальное обучение по целям и уровню ученика."
+            ],
+            "typesTitle": "Типы курсов",
+            "individualTitle": "Индивидуальные курсы",
+            "individualList": [
+              "2 раза в неделю — 8 уроков в месяц.",
+              "3 раза в неделю — 12 уроков в месяц.",
+              "Продолжительность урока — 60 минут."
+            ],
+            "groupTitle": "Групповые курсы",
+            "groupList": [
+              "3 раза в неделю — 12 уроков в месяц.",
+              "Продолжительность урока — 90 минут."
+            ],
+            "formatsTitle": "Форматы обучения",
+            "online": "🌐 Онлайн",
+            "offline": "🏫 Офлайн",
+            "address": "📍 Адрес: г. Ереван, Нор Норк, проспект Гая 37.",
+            "footerText": "Seda’s School — международный опыт, качественное образование и уверенный шаг к успеху."
+          }
+        },
+        {
+          "id": 4,
+          "category": "languages",
+          "title": "Английский",
+          "teacher": "Кнарик Хачатрян",
+          "role": "Специалист по английскому",
+          "desc": "Разговорный и письменный английский:",
+          "image": "/images/teachers/qnarik.jpg",
+          "slug": "english-qnarik",
+          "details": {
+            "title": "Курсы английского языка 🇬🇧",
+            "subtitle": "Научись говорить уверенно и свободно.",
+            "intro1": "В Seda’s School под руководством Кнарик Хачатрян мы предлагаем курсы английского языка от начального до продвинутого уровня.",
+            "intro2": "Она работает с учениками уровней A1–C2, предлагая обучение английскому, а также подготовку абитуриентов и к международным экзаменам.",
+            "programsTitle": "Наши образовательные программы",
+            "programs": [
+              "Общий английский — уровни A1–C2.",
+              "Разговорный английский — развитие устной речи.",
+              "Подготовка абитуриентов к экзаменам.",
+              "Подготовка к IELTS — Listening, Reading, Writing и Speaking.",
+              "Подготовка к школьным экзаменам.",
+              "Индивидуальное обучение по целям и уровню ученика."
+            ],
+            "typesTitle": "Типы курсов",
+            "individualTitle": "Индивидуальные курсы",
+            "individualList": [
+              "2 раза в неделю — 8 уроков в месяц.",
+              "3 раза в неделю — 12 уроков в месяц.",
+              "Продолжительность урока — 60 минут."
+            ],
+            "groupTitle": "Групповые курсы",
+            "groupList": [
+              "3 раза в неделю — 12 уроков в месяц.",
+              "Продолжительность урока — 90 минут."
+            ],
+            "formatsTitle": "Форматы обучения",
+            "online": "🌐 Онлайн",
+            "offline": "🏫 Офлайн",
+            "address": "📍 Адрес: г. Ереван, Нор Норк, проспект Гая 37.",
+            "footerText": "Seda’s School — качественное образование и уверенный шаг к успеху."
+          }
+        },
+        {
+          "id": 8,
+          "category": "languages",
+          "title": "Французский",
+          "teacher": "Тамара Хачатрян",
+          "role": "Специалист по французскому",
+          "desc": "Французский язык и культура:",
+          "image": "/images/teachers/tamara.jpg",
+          "slug": "french",
+          "details": {
+            "title": "Курсы французского языка 🇫🇷",
+            "subtitle": "Научись говорить по-французски уверенно.",
+            "intro1": "В Seda’s School под руководством Тамары Хачатрян мы предлагаем курсы французского языка для детей и взрослых — от начинающих до тех, кто хочет усовершенствовать свои знания.",
+            "intro2": "Наша цель — помочь каждому ученику освоить французский язык, развить коммуникативные навыки и открыть для себя красоту французского языка и культуры.",
+            "programsTitle": "Наши образовательные программы",
+            "programs": [
+              "Французский с нуля — алфавит, произношение, словарный запас и основы грамматики.",
+              "Развитие устной речи — научись свободно и уверенно общаться на французском.",
+              "Грамматика французского — развивай языковые знания и совершенствуй письменную речь.",
+              "Общий французский — развитие навыков аудирования, чтения, письма и говорения.",
+              "Французский для детей и взрослых — обучение с учетом возраста и уровня знаний.",
+              "Индивидуальное обучение французскому — индивидуальный подход к целям каждого ученика."
+            ],
+            "typesTitle": "Типы курсов",
+            "individualTitle": "Индивидуальные курсы",
+            "individualList": [
+              "2 раза в неделю — 8 уроков в месяц.",
+              "3 раза в неделю — 12 уроков в месяц.",
+              "Продолжительность урока — 60 минут."
+            ],
+            "groupTitle": "Групповые курсы",
+            "groupList": [
+              "3 раза в неделю — 12 уроков в месяц.",
+              "Продолжительность урока — 90 минут."
+            ],
+            "formatsTitle": "Форматы обучения",
+            "online": "🌐 Онлайн",
+            "offline": "🏫 Офлайн",
+            "address": "📍 Адрес: г. Ереван, Нор Норк, проспект Гая 37.",
+            "footerText": "Seda’s School — учи новый язык, открывай новый мир."
+          }
+        },
+        {
+          "id": 3,
+          "category": "general",
+          "title": "Армянский язык и литература",
+          "teacher": "Вардуи Сиравян",
+          "role": "Специалист по языку и литературе",
+          "desc": "Грамотность и творческое мышление:",
+          "image": "/images/teachers/varduhi.jpg",
+          "slug": "armenian",
+          "details": {
+            "title": "Армянский язык и литература 📚",
+            "subtitle": "Открой для себя богатство нашего языка.",
+            "intro1": "Вардуи Сиравян — опытный специалист по нашему языку и литературе, которая делится своими знаниями и большой любовью с учениками.",
+            "intro2": "Она работает с разными возрастными группами, предлагая углубленное изучение армянского языка, развитие грамотности и любовь к нашей культуре и литературе.",
+            "programsTitle": "Наши образовательные программы",
+            "programs": [
+              "Армянский язык с нуля — алфавит, словарный запас и основы.",
+              "Развитие устной речи — научись свободно и грамотно выражаться.",
+              "Углубленное изучение грамматики — совершенствование письменной речи.",
+              "Армянский язык и литература — освоение школьной программы.",
+              "Подготовка к экзаменам — 9 класс и поступление в вуз.",
+              "Армянский для иностранцев — с нуля до повседневного общения."
+            ],
+            "typesTitle": "Типы курсов",
+            "individualTitle": "Индивидуальные курсы",
+            "individualList": [
+              "2 раза в неделю — 8 уроков в месяц.",
+              "3 раза в неделю — 12 уроков в месяц.",
+              "Продолжительность урока — 60 минут."
+            ],
+            "groupTitle": "Групповые курсы",
+            "groupList": [
+              "3 раза в неделю — 12 уроков в месяц.",
+              "Продолжительность урока — 90 минут."
+            ],
+            "formatsTitle": "Форматы обучения",
+            "online": "🌐 Онлайн — учись из любой точки мира.",
+            "offline": "🏫 Офлайн — посещай занятия в Seda’s School.",
+            "address": "📍 Адрес: г. Ереван, Нор Норк, проспект Гая 37, рядом с Мега Моллом.",
+            "footerText": "Seda’s School — учи армянский с любовью, говори уверенно."
+          }
+        },
+        {
+          "id": 9,
+          "category": "languages",
+          "title": "Испанский",
+          "teacher": "Преподаватель скоро будет",
+          "role": "Специалист по испанскому",
+          "desc": "Испанский язык и культура:",
+          "image": "https://flagcdn.com/w640/es.png",
+          "slug": "spanish",
+          "details": {
+            "title": "Курсы испанского языка 🇪🇸",
+            "subtitle": "Этот курс скоро будет доступен.",
+            "intro1": "Наша команда активно работает над поиском лучшего преподавателя испанского языка.",
+            "intro2": "Пожалуйста, следите за нашим сайтом, скоро мы объявим о новом преподавателе.",
+            "programsTitle": "Что ожидается",
+            "programs": ["Общий испанский", "Разговорный испанский", "Культурные программы"],
+            "typesTitle": "Типы курсов",
+            "individualTitle": "Индивидуальные",
+            "individualList": ["Скоро"],
+            "groupTitle": "Групповые",
+            "groupList": ["Скоро"],
+            "formatsTitle": "Форматы обучения",
+            "online": "🌐 Онлайн",
+            "offline": "🏫 Офлайн",
+            "address": "📍 Адрес: г. Ереван, Нор Норк, проспект Гая 37.",
+            "footerText": "Seda’s School — скоро новые возможности."
+          }
+        },
+        {
+          "id": 10,
+          "category": "languages",
+          "title": "Немецкий",
+          "teacher": "Преподаватель скоро будет",
+          "role": "Специалист по немецкому",
+          "desc": "Немецкий язык и культура:",
+          "image": "https://flagcdn.com/w640/de.png",
+          "slug": "german",
+          "details": {
+            "title": "Курсы немецкого языка 🇩🇪",
+            "subtitle": "Этот курс скоро будет доступен.",
+            "intro1": "Наша команда активно работает над поиском лучшего преподавателя немецкого языка.",
+            "intro2": "Пожалуйста, следите за нашим сайтом, скоро мы объявим о новом преподавателе.",
+            "programsTitle": "Что ожидается",
+            "programs": ["Общий немецкий", "Разговорный немецкий", "Культурные программы"],
+            "typesTitle": "Типы курсов",
+            "individualTitle": "Индивидуальные",
+            "individualList": ["Скоро"],
+            "groupTitle": "Групповые",
+            "groupList": ["Скоро"],
+            "formatsTitle": "Форматы обучения",
+            "online": "🌐 Онлайн",
+            "offline": "🏫 Офлайн",
+            "address": "📍 Адрес: г. Ереван, Нор Норк, проспект Гая 37.",
+            "footerText": "Seda’s School — скоро новые возможности."
+          }
+        },
+        {
+          "id": 11,
+          "category": "languages",
+          "title": "Итальянский",
+          "teacher": "Преподаватель скоро будет",
+          "role": "Специалист по итальянскому",
+          "desc": "Итальянский язык и культура:",
+          "image": "https://flagcdn.com/w640/it.png",
+          "slug": "italian",
+          "details": {
+            "title": "Курсы итальянского языка 🇮🇹",
+            "subtitle": "Этот курс скоро будет доступен.",
+            "intro1": "Наша команда активно работает над поиском лучшего преподавателя итальянского языка.",
+            "intro2": "Пожалуйста, следите за нашим сайтом, скоро мы объявим о новом преподавателе.",
+            "programsTitle": "Что ожидается",
+            "programs": ["Общий итальянский", "Разговорный итальянский", "Культурные программы"],
+            "typesTitle": "Типы курсов",
+            "individualTitle": "Индивидуальные",
+            "individualList": ["Скоро"],
+            "groupTitle": "Групповые",
+            "groupList": ["Скоро"],
+            "formatsTitle": "Форматы обучения",
+            "online": "🌐 Онлайн",
+            "offline": "🏫 Офлайн",
+            "address": "📍 Адрес: г. Ереван, Нор Норк, проспект Гая 37.",
+            "footerText": "Seda’s School — скоро новые возможности."
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "lang": "en",
+      "hero": {
+        "subtitle": "OUR SERVICES",
+        "title": "Discover our educational directions",
+        "desc": "Choose your path from our diverse programs: languages, sciences, and modern technologies."
+      },
+      "categories": [
+        { "id": "all", "name": "All" },
+        { "id": "languages", "name": "Foreign Languages" },
+        { "id": "modern", "name": "Modern" },
+        { "id": "general", "name": "General" }
+      ],
+      "items": [
+        {
+          "id": 1,
+          "category": "modern",
+          "title": "Programming, Physics, Chemistry, Mathematics",
+          "teacher": "Frunze Hayrapetyan",
+          "role": "Programmer and Science Specialist",
+          "desc": "All exact sciences and technologies in one place:",
+          "image": "/images/teachers/frunze.jpg",
+          "slug": "frunze-subjects",
+          "details": {
+            "title": "Programming, Physics, Chemistry, Mathematics 🧠",
+            "subtitle": "Learn exact sciences and technologies from an experienced specialist.",
+            "intro1": "Frunze Hayrapetyan is our experienced specialist who teaches programming (7 years of experience), as well as physics, chemistry, and mathematics (5 years of experience).",
+            "intro2": "He works with both children and adults, offering practical knowledge, real projects, and an individual approach to each learner.",
+            "programsTitle": "What you will learn",
+            "programs": [
+              "Programming — HTML, CSS, JavaScript, React, Next.js, Node.js.",
+              "Physics — mechanics, electricity, and magnetism.",
+              "Chemistry — atoms, molecules, and chemical reactions.",
+              "Mathematics — arithmetic, algebra, and geometry.",
+              "Exam and Olympiad preparation.",
+              "Individual projects and hands-on work."
+            ],
+            "typesTitle": "Course formats",
+            "individualTitle": "Individual",
+            "individualList": [
+              "2 times a week — 8 lessons per month.",
+              "3 times a week — 12 lessons per month.",
+              "Lesson duration — 60 minutes."
+            ],
+            "groupTitle": "Group",
+            "groupList": [
+              "3 times a week — 12 lessons per month.",
+              "Lesson duration — 90 minutes."
+            ],
+            "formatsTitle": "Learning formats",
+            "online": "🌐 Online — learn from anywhere in the world.",
+            "offline": "🏫 Offline — attend classes at Seda’s School.",
+            "address": "📍 Address: Yerevan, Nor Nork, Gai Avenue 37, next to Mega Mall.",
+            "footerText": "Seda’s School — learn sciences and technologies, create the future."
+          }
+        },
+        {
+          "id": 2,
+          "category": "languages",
+          "title": "English",
+          "teacher": "Miss Seda",
+          "role": "English Specialist",
+          "desc": "Spoken and written English:",
+          "image": "/images/teachers/seda.jpg",
+          "slug": "english-seda",
+          "details": {
+            "title": "Miss Seda — Founder & Director, Chief English Specialist 🇬🇧",
+            "subtitle": "Learn to speak confidently and fluently.",
+            "intro1": "Miss Seda has 10 years of international teaching experience, working at international educational centers including Helen Doron and Wexford in Moscow, Berlitz Language Center in Dubai, and ABC Center in Italy.",
+            "intro2": "She works with students at A1–C2 levels, offering English instruction from beginner to advanced, as well as exam preparation for university applicants and international exams.",
+            "programsTitle": "Our educational programs",
+            "programs": [
+              "General English — A1–C2 levels.",
+              "Conversational English — speaking skills development.",
+              "University exam preparation.",
+              "IELTS preparation — Listening, Reading, Writing, and Speaking.",
+              "School exam preparation.",
+              "Individual training tailored to the student’s goals and level."
+            ],
+            "typesTitle": "Course types",
+            "individualTitle": "Individual courses",
+            "individualList": [
+              "2 times a week — 8 lessons per month.",
+              "3 times a week — 12 lessons per month.",
+              "Lesson duration — 60 minutes."
+            ],
+            "groupTitle": "Group courses",
+            "groupList": [
+              "3 times a week — 12 lessons per month.",
+              "Lesson duration — 90 minutes."
+            ],
+            "formatsTitle": "Learning formats",
+            "online": "🌐 Online",
+            "offline": "🏫 Offline",
+            "address": "📍 Address: Yerevan, Nor Nork, Gai Avenue 37.",
+            "footerText": "Seda’s School — international experience, quality education, and a confident step towards success."
+          }
+        },
+        {
+          "id": 4,
+          "category": "languages",
+          "title": "English",
+          "teacher": "Qnarik Khachatryan",
+          "role": "English Specialist",
+          "desc": "Spoken and written English:",
+          "image": "/images/teachers/qnarik.jpg",
+          "slug": "english-qnarik",
+          "details": {
+            "title": "English Language Courses 🇬🇧",
+            "subtitle": "Learn to speak confidently and fluently.",
+            "intro1": "At Seda’s School, under the guidance of Qnarik Khachatryan, we offer English language courses from beginner to advanced levels.",
+            "intro2": "She works with students at A1–C2 levels, offering English instruction as well as exam preparation for university applicants and international exams.",
+            "programsTitle": "Our educational programs",
+            "programs": [
+              "General English — A1–C2 levels.",
+              "Conversational English — speaking skills development.",
+              "University exam preparation.",
+              "IELTS preparation — Listening, Reading, Writing, and Speaking.",
+              "School exam preparation.",
+              "Individual training tailored to the student’s goals and level."
+            ],
+            "typesTitle": "Course types",
+            "individualTitle": "Individual courses",
+            "individualList": [
+              "2 times a week — 8 lessons per month.",
+              "3 times a week — 12 lessons per month.",
+              "Lesson duration — 60 minutes."
+            ],
+            "groupTitle": "Group courses",
+            "groupList": [
+              "3 times a week — 12 lessons per month.",
+              "Lesson duration — 90 minutes."
+            ],
+            "formatsTitle": "Learning formats",
+            "online": "🌐 Online",
+            "offline": "🏫 Offline",
+            "address": "📍 Address: Yerevan, Nor Nork, Gai Avenue 37.",
+            "footerText": "Seda’s School — quality education and a confident step towards success."
+          }
+        },
+        {
+          "id": 8,
+          "category": "languages",
+          "title": "French",
+          "teacher": "Tamara Khachatryan",
+          "role": "French Specialist",
+          "desc": "French language and culture:",
+          "image": "/images/teachers/tamara.jpg",
+          "slug": "french",
+          "details": {
+            "title": "French Language Courses 🇫🇷",
+            "subtitle": "Learn to speak French with confidence.",
+            "intro1": "At Seda’s School, under the guidance of Tamara Khachatryan, we offer French language courses for children and adults — from beginners to those who want to improve their language skills.",
+            "intro2": "Our goal is to help each student master French, develop communication skills, and discover the beauty of French language and culture.",
+            "programsTitle": "Our educational programs",
+            "programs": [
+              "French from scratch — alphabet, pronunciation, vocabulary, and grammar basics.",
+              "Speaking skills development — learn to communicate freely and confidently in French.",
+              "French grammar — develop your language skills and perfect your writing.",
+              "General French — development of listening, reading, writing, and speaking skills.",
+              "French for children and adults — teaching according to age and knowledge level.",
+              "Individual French training — an individual approach to each student's goals."
+            ],
+            "typesTitle": "Course types",
+            "individualTitle": "Individual courses",
+            "individualList": [
+              "2 times a week — 8 lessons per month.",
+              "3 times a week — 12 lessons per month.",
+              "Lesson duration — 60 minutes."
+            ],
+            "groupTitle": "Group courses",
+            "groupList": [
+              "3 times a week — 12 lessons per month.",
+              "Lesson duration — 90 minutes."
+            ],
+            "formatsTitle": "Learning formats",
+            "online": "🌐 Online",
+            "offline": "🏫 Offline",
+            "address": "📍 Address: Yerevan, Nor Nork, Gai Avenue 37.",
+            "footerText": "Seda’s School — learn a new language, discover a new world."
+          }
+        },
+        {
+          "id": 3,
+          "category": "general",
+          "title": "Armenian Language & Literature",
+          "teacher": "Varduhi Siravyan",
+          "role": "Language & Literature Specialist",
+          "desc": "Literacy and creative thinking:",
+          "image": "/images/teachers/varduhi.jpg",
+          "slug": "armenian",
+          "details": {
+            "title": "Armenian Language & Literature 📚",
+            "subtitle": "Discover the richness of our language.",
+            "intro1": "Varduhi Siravyan is an experienced specialist in our language and literature, who shares her knowledge and great love with students.",
+            "intro2": "She works with different age groups, offering in-depth study of the Armenian language, development of literacy, and a love for our culture and literature.",
+            "programsTitle": "Our educational programs",
+            "programs": [
+              "Armenian from scratch — alphabet, vocabulary, and basics.",
+              "Speaking skills development — learn to express yourself freely and fluently.",
+              "Advanced grammar — perfecting written speech.",
+              "Armenian language and literature — mastering the school curriculum.",
+              "Exam preparation — 9th grade and university admission.",
+              "Armenian for foreigners — from zero to everyday communication."
+            ],
+            "typesTitle": "Course types",
+            "individualTitle": "Individual courses",
+            "individualList": [
+              "2 times a week — 8 lessons per month.",
+              "3 times a week — 12 lessons per month.",
+              "Lesson duration — 60 minutes."
+            ],
+            "groupTitle": "Group courses",
+            "groupList": [
+              "3 times a week — 12 lessons per month.",
+              "Lesson duration — 90 minutes."
+            ],
+            "formatsTitle": "Learning formats",
+            "online": "🌐 Online — learn from anywhere in the world.",
+            "offline": "🏫 Offline — attend classes at Seda’s School.",
+            "address": "📍 Address: Yerevan, Nor Nork, Gai Avenue 37, next to Mega Mall.",
+            "footerText": "Seda’s School — learn Armenian with love, speak with confidence."
+          }
+        },
+        {
+          "id": 9,
+          "category": "languages",
+          "title": "Spanish",
+          "teacher": "Teacher coming soon",
+          "role": "Spanish Specialist",
+          "desc": "Spanish language and culture:",
+          "image": "https://flagcdn.com/w640/es.png",
+          "slug": "spanish",
+          "details": {
+            "title": "Spanish Language Courses 🇪🇸",
+            "subtitle": "This course will be available soon.",
+            "intro1": "Our team is actively working on finding the best Spanish teacher.",
+            "intro2": "Please follow our website, we will announce the new teacher soon.",
+            "programsTitle": "What to expect",
+            "programs": ["General Spanish", "Conversational Spanish", "Cultural programs"],
+            "typesTitle": "Course types",
+            "individualTitle": "Individual",
+            "individualList": ["Soon"],
+            "groupTitle": "Group",
+            "groupList": ["Soon"],
+            "formatsTitle": "Learning formats",
+            "online": "🌐 Online",
+            "offline": "🏫 Offline",
+            "address": "📍 Address: Yerevan, Nor Nork, Gai Avenue 37.",
+            "footerText": "Seda’s School — new opportunities coming soon."
+          }
+        },
+        {
+          "id": 10,
+          "category": "languages",
+          "title": "German",
+          "teacher": "Teacher coming soon",
+          "role": "German Specialist",
+          "desc": "German language and culture:",
+          "image": "https://flagcdn.com/w640/de.png",
+          "slug": "german",
+          "details": {
+            "title": "German Language Courses 🇩🇪",
+            "subtitle": "This course will be available soon.",
+            "intro1": "Our team is actively working on finding the best German teacher.",
+            "intro2": "Please follow our website, we will announce the new teacher soon.",
+            "programsTitle": "What to expect",
+            "programs": ["General German", "Conversational German", "Cultural programs"],
+            "typesTitle": "Course types",
+            "individualTitle": "Individual",
+            "individualList": ["Soon"],
+            "groupTitle": "Group",
+            "groupList": ["Soon"],
+            "formatsTitle": "Learning formats",
+            "online": "🌐 Online",
+            "offline": "🏫 Offline",
+            "address": "📍 Address: Yerevan, Nor Nork, Gai Avenue 37.",
+            "footerText": "Seda’s School — new opportunities coming soon."
+          }
+        },
+        {
+          "id": 11,
+          "category": "languages",
+          "title": "Italian",
+          "teacher": "Teacher coming soon",
+          "role": "Italian Specialist",
+          "desc": "Italian language and culture:",
+          "image": "https://flagcdn.com/w640/it.png",
+          "slug": "italian",
+          "details": {
+            "title": "Italian Language Courses 🇮🇹",
+            "subtitle": "This course will be available soon.",
+            "intro1": "Our team is actively working on finding the best Italian teacher.",
+            "intro2": "Please follow our website, we will announce the new teacher soon.",
+            "programsTitle": "What to expect",
+            "programs": ["General Italian", "Conversational Italian", "Cultural programs"],
+            "typesTitle": "Course types",
+            "individualTitle": "Individual",
+            "individualList": ["Soon"],
+            "groupTitle": "Group",
+            "groupList": ["Soon"],
+            "formatsTitle": "Learning formats",
+            "online": "🌐 Online",
+            "offline": "🏫 Offline",
+            "address": "📍 Address: Yerevan, Nor Nork, Gai Avenue 37.",
+            "footerText": "Seda’s School — new opportunities coming soon."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+/* AboutStory.css */
+
+.about-story-section {
+  width: 100%;
+  padding: 40px 16px 100px;
+  background-color: #FCF8F0;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.about-story-container {
+  width: 100%;
+  max-width: 900px;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.story-intro {
+  margin-bottom: 60px;
+}
+
+.story-text {
+  font-size: 19px;
+  color: #5C2126;
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+
+.story-location-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 20px;
+  border-left: 5px solid #B89259;
+  box-shadow: 0 10px 30px rgba(92, 33, 38, 0.05);
+  margin-top: 30px;
+}
+
+.location-icon {
+  font-size: 28px;
+}
+
+.story-location-text {
+  font-size: 16px;
+  color: #7A6365;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.founder-section {
+  background-color: #FFFFFF;
+  padding: 50px;
+  border-radius: 30px;
+  box-shadow: 0 20px 50px rgba(92, 33, 38, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.founder-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg, #5C2126, #B89259);
+}
+
+.founder-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: #5C2126;
+  margin-bottom: 24px;
+}
+
+.founder-quote-box {
+  margin-top: 40px;
+  padding: 40px;
+  background: linear-gradient(135deg, #5C2126 0%, #4a181c 100%);
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(92, 33, 38, 0.2);
+}
+
+.quote-icon {
+  font-size: 80px;
+  color: rgba(184, 146, 89, 0.3);
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  font-family: serif;
+  line-height: 1;
+}
+
+.founder-quote {
+  font-size: 20px;
+  color: #FCF8F0;
+  font-style: italic;
+  line-height: 1.7;
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.founder-author {
+  font-size: 15px;
+  color: #B89259;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .story-text { font-size: 17px; }
+  .founder-section { padding: 30px 20px; }
+  .founder-title { font-size: 24px; }
+  .founder-quote-box { padding: 30px 20px; }
+  .founder-quote { font-size: 17px; }
+}

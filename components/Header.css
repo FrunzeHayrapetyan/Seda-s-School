@@ -1,0 +1,249 @@
+/* Header.css */
+
+.header-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* === ՍՔՐՈԼԻ ԱՆԻՄԱՑԻԱ (Header wrapper) === */
+.header-wrapper.scrolled {
+  background-color: rgba(252, 248, 240, 0.95); /* Կրեմագույն, ավելի պինդ */
+  padding: 8px 16px; /* Մի փոքր փոքրանում է բարձրությունը */
+  box-shadow: 0 4px 20px rgba(92, 33, 38, 0.08);
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  border-radius: 100px;
+  background-color: #FCF8F0;
+  border: 1px solid #EAE0D5;
+  box-shadow: 0 10px 30px -10px rgba(92, 33, 38, 0.15);
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  position: relative;
+}
+
+/* === ՍՔՐՈԼԻ ԱՆԻՄԱՑԻԱ (Header container) === */
+.header-container.scrolled {
+  box-shadow: 0 10px 30px -5px rgba(92, 33, 38, 0.25);
+  border-color: rgba(184, 146, 89, 0.4); /* Ոսկեգույն եզրագիծ */
+  transform: scale(0.98); /* Մի փոքր սեղմվում է */
+}
+
+.header-container:hover {
+  box-shadow: 0 15px 35px -5px rgba(92, 33, 38, 0.2);
+}
+
+.header-logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  z-index: 2;
+}
+
+.header-logo-box {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #FCF8F0;
+  box-shadow: 0 0 0 2px #B89259, 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.header-logo-link:hover .header-logo-box {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.header-logo-img {
+  object-fit: cover;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.header-nav-link {
+  position: relative;
+  text-decoration: none;
+  color: #5C2126;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 6px 0;
+  transition: color 0.3s ease;
+}
+
+.header-nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 50%;
+  background-color: #B89259;
+  transition: all 0.3s ease;
+  border-radius: 2px;
+  transform: translateX(-50%);
+}
+
+.header-nav-link:hover {
+  color: #B89259;
+}
+
+.header-nav-link:hover::after {
+  width: 100%;
+}
+
+.header-lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px;
+  border-radius: 50px;
+  background-color: #F0E8DF;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.header-lang-btn {
+  border: none;
+  background: transparent;
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #5C2126;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-lang-btn:hover:not(.active) {
+  background-color: rgba(92, 33, 38, 0.08);
+}
+
+.header-lang-btn.active {
+  background-color: #5C2126;
+  color: #FCF8F0;
+  box-shadow: 0 4px 12px rgba(92, 33, 38, 0.3);
+  transform: scale(1.05);
+}
+
+/* Բուրգեր կոճակի ոճերը */
+.header-burger-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  padding: 0;
+}
+
+.header-burger-btn span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #5C2126;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+/* Բուրգերի անիմացիա, երբ բացված է (X նշան) */
+.header-burger-btn span.open:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+}
+.header-burger-btn span.open:nth-child(2) {
+  opacity: 0;
+}
+.header-burger-btn span.open:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
+}
+
+/* === ՄՈԲԱՅԼ ՏԱՐԲԵՐԱԿ === */
+@media (max-width: 900px) {
+  .header-burger-btn {
+    display: flex;
+  }
+
+  .header-right {
+    gap: 15px;
+  }
+
+  .header-nav {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background-color: #FCF8F0;
+    border: 1px solid #EAE0D5;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(92, 33, 38, 0.15);
+    gap: 15px;
+    
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+  }
+
+  .header-nav.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .header-nav-link {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+  }
+
+  .header-nav-link::after {
+    display: none;
+  }
+  
+  .header-container {
+    border-radius: 50px;
+    padding: 10px 20px;
+  }
+}
+
+/* Եթե էկրանը շատ փոքր է (հեռախոս) */
+@media (max-width: 400px) {
+  .header-lang-switcher {
+    padding: 4px;
+  }
+  .header-lang-btn {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+  .header-logo-box {
+    width: 45px;
+    height: 45px;
+  }
+}

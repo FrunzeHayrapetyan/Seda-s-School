@@ -1,0 +1,56 @@
+/* ScrollToTop.css */
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 110px; /* Տեղադրված է խորհրդատվության կոճակից վերև */
+  right: 30px;
+  z-index: 99;
+  
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+  background-color: #FCF8F0; /* Կրեմագույն */
+  color: #5C2126; /* Մուգ բորդո */
+  border: 2px solid #B89259; /* Ոսկեգույն եզրագիծ */
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  
+  box-shadow: 0 10px 20px rgba(92, 33, 38, 0.15);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  
+  /* Հայտնվելու անիմացիա */
+  animation: fadeInUpBtn 0.4s ease-out;
+}
+
+.scroll-to-top:hover {
+  background-color: #5C2126;
+  color: #FCF8F0;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 15px 25px rgba(92, 33, 38, 0.3);
+}
+
+/* Անիմացիա */
+@keyframes fadeInUpBtn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Մոբայլ տարբերակ */
+@media (max-width: 768px) {
+  .scroll-to-top {
+    bottom: 90px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+  }
+}

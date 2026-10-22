@@ -1,0 +1,79 @@
+/* ServicesHero.css */
+
+.services-hero-section {
+  width: 100%;
+  padding: 100px 16px 60px;
+  background-color: #FCF8F0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.services-hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -100px;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(184, 146, 89, 0.15) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.services-hero-container {
+  max-width: 900px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.services-subtitle {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  color: #B89259;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  background: rgba(184, 146, 89, 0.1);
+  padding: 8px 20px;
+  border-radius: 30px;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-delay: 0.1s;
+}
+
+.services-title {
+  font-size: 52px;
+  font-weight: 800;
+  color: #5C2126;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  letter-spacing: -1px;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+.services-desc {
+  font-size: 19px;
+  color: #7A6365;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .services-title { font-size: 34px; }
+  .services-desc { font-size: 16px; }
+}
