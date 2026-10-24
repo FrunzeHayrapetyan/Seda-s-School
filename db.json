@@ -367,6 +367,46 @@
           }
         },
         {
+          "id": 12,
+          "category": "languages",
+          "title": "Ռուսերեն",
+          "teacher": "Կրիստինե",
+          "role": "Ռուսերենի մասնագետ",
+          "desc": "Ռուսերեն լեզու և մշակույթ:",
+          "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23FCF8F0'/><text x='50' y='55' font-size='40' text-anchor='middle' dominant-baseline='middle' fill='%235C2126'>🇷🇺</text></svg>",
+          "slug": "russian",
+          "details": {
+            "title": "Ռուսերենի դասընթացներ 🇷🇺",
+            "subtitle": "Սովորի՛ր ռուսերենը Կրիստինեի հետ։",
+            "intro1": "Seda’s School-ում Կրիստինեի ղեկավարությամբ առաջարկում ենք ռուսերենի դասընթացներ սկսնակներից մինչև առաջադեմ մակարդակ։",
+            "intro2": "Մեր նպատակն է օգնել յուրաքանչյուր սովորողի յուրացնել ռուսերենը և զարգացնել հաղորդակցման հմտությունները։",
+            "programsTitle": "Մեր կրթական ծրագրերը",
+            "programs": [
+              "Ռուսերեն զրոյից — այբուբեն, արտասանություն և հիմունքներ։",
+              "Բանավոր խոսքի զարգացում — ազատ հաղորդակցում։",
+              "Քերականություն և գրավոր խոսք։",
+              "Ընդհանուր ռուսերեն — բոլոր հմտությունների զարգացում։"
+            ],
+            "typesTitle": "Դասընթացների տեսակները",
+            "individualTitle": "Անհատական",
+            "individualList": [
+              "Շաբաթական 2 անգամ՝ ամսական 8 դաս։",
+              "Շաբաթական 3 անգամ՝ ամսական 12 դաս։",
+              "Մեկ դասի տևողությունը՝ 60 րոպե։"
+            ],
+            "groupTitle": "Խմբակային",
+            "groupList": [
+              "Շաբաթական 3 անգամ՝ ամսական 12 դաս։",
+              "Մեկ դասի տևողությունը՝ 90 րոպե։"
+            ],
+            "formatsTitle": "Ուսուցման ձևաչափեր",
+            "online": "🌐 Առցանց (Online) — սովորի՛ր աշխարհի ցանկացած կետից։",
+            "offline": "🏫 Առկա (Offline) — մասնակցի՛ր դասերին Seda’s School-ում։",
+            "address": "📍 Հասցե՝ Երևան, Նոր Նորք, Գայի պողոտա 37։",
+            "footerText": "Seda’s School — սովորի՛ր նոր լեզու, բացահայտի՛ր նոր աշխարհ։"
+          }
+        },
+        {
           "id": 4,
           "category": "languages",
           "title": "Անգլերեն",
@@ -678,6 +718,46 @@
           }
         },
         {
+          "id": 12,
+          "category": "languages",
+          "title": "Русский",
+          "teacher": "Кристине",
+          "role": "Специалист по русскому",
+          "desc": "Русский язык и культура:",
+          "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23FCF8F0'/><text x='50' y='55' font-size='40' text-anchor='middle' dominant-baseline='middle' fill='%235C2126'>🇷🇺</text></svg>",
+          "slug": "russian",
+          "details": {
+            "title": "Курсы русского языка 🇷🇺",
+            "subtitle": "Изучай русский язык с Кристине.",
+            "intro1": "В Seda’s School под руководством Кристине мы предлагаем курсы русского языка от начального до продвинутого уровня.",
+            "intro2": "Наша цель — помочь каждому ученику освоить русский язык и развить коммуникативные навыки.",
+            "programsTitle": "Наши образовательные программы",
+            "programs": [
+              "Русский с нуля — алфавит, произношение и основы.",
+              "Развитие устной речи — свободное общение.",
+              "Грамматика и письменная речь.",
+              "Общий русский — развитие всех навыков."
+            ],
+            "typesTitle": "Типы курсов",
+            "individualTitle": "Индивидуальные",
+            "individualList": [
+              "2 раза в неделю — 8 уроков в месяц.",
+              "3 раза в неделю — 12 уроков в месяц.",
+              "Продолжительность урока — 60 минут."
+            ],
+            "groupTitle": "Групповые",
+            "groupList": [
+              "3 раза в неделю — 12 уроков в месяц.",
+              "Продолжительность урока — 90 минут."
+            ],
+            "formatsTitle": "Форматы обучения",
+            "online": "🌐 Онлайн — учись из любой точки мира.",
+            "offline": "🏫 Офлайн — посещай занятия в Seda’s School.",
+            "address": "📍 Адрес: г. Ереван, Нор Норк, проспект Гая 37.",
+            "footerText": "Seda’s School — учи новый язык, открывай новый мир."
+          }
+        },
+        {
           "id": 4,
           "category": "languages",
           "title": "Английский",
@@ -986,6 +1066,46 @@
             "offline": "🏫 Offline",
             "address": "📍 Address: Yerevan, Nor Nork, Gai Avenue 37.",
             "footerText": "Seda’s School — international experience, quality education, and a confident step towards success."
+          }
+        },
+        {
+          "id": 12,
+          "category": "languages",
+          "title": "Russian",
+          "teacher": "Kristine",
+          "role": "Russian Specialist",
+          "desc": "Russian language and culture:",
+          "image": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23FCF8F0'/><text x='50' y='55' font-size='40' text-anchor='middle' dominant-baseline='middle' fill='%235C2126'>🇷🇺</text></svg>",
+          "slug": "russian",
+          "details": {
+            "title": "Russian Language Courses 🇷🇺",
+            "subtitle": "Learn Russian with Kristine.",
+            "intro1": "At Seda’s School, under the guidance of Kristine, we offer Russian language courses from beginner to advanced levels.",
+            "intro2": "Our goal is to help each student master the Russian language and develop communication skills.",
+            "programsTitle": "Our educational programs",
+            "programs": [
+              "Russian from scratch — alphabet, pronunciation, and basics.",
+              "Speaking skills development — free communication.",
+              "Grammar and writing.",
+              "General Russian — development of all skills."
+            ],
+            "typesTitle": "Course types",
+            "individualTitle": "Individual courses",
+            "individualList": [
+              "2 times a week — 8 lessons per month.",
+              "3 times a week — 12 lessons per month.",
+              "Lesson duration — 60 minutes."
+            ],
+            "groupTitle": "Group courses",
+            "groupList": [
+              "3 times a week — 12 lessons per month.",
+              "Lesson duration — 90 minutes."
+            ],
+            "formatsTitle": "Learning formats",
+            "online": "🌐 Online",
+            "offline": "🏫 Offline",
+            "address": "📍 Address: Yerevan, Nor Nork, Gai Avenue 37.",
+            "footerText": "Seda’s School — learn a new language, discover a new world."
           }
         },
         {
